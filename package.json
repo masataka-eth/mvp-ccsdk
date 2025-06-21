@@ -1,0 +1,20 @@
+{
+  "name": "github-repo-analyzer",
+  "version": "1.0.0",
+  "description": "Minimal GitHub repository analyzer using Claude Code SDK",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsx src/index.ts"
+  },
+  "dependencies": {
+    "@anthropic-ai/claude-code": "^1.0.31",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.5",
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.3"
+  }
+}
